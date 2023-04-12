@@ -1,6 +1,5 @@
 fun main(){
-    println("Application For Employment")
-    println("")
+
     var job:String = "Mobile Developer"
     var salary:Double = 40000.00
     var dateAvailable:String = "Full Time"
@@ -43,7 +42,9 @@ fun main(){
     var refContact:Int = 427974402
     var nameOfApplicant:String = "Mary Claire O. Capili"
     var dateSigned:String = "April 12, 2023"
-
+    println("")
+    println("                               Application For Employment")
+    println("")
     println("Position You Are Applying For: $job              Desired Salary : $salary")
     println("Date Available for Work : $dateAvailable")
     println("")
@@ -91,5 +92,4 @@ fun main(){
     println("")
     println("$nameOfApplicant                                       $dateSigned")
     println("Signature of Applicant                                       Date")
-
 }
