@@ -7,7 +7,7 @@ fun main(){
     //Greater than 100,000.00 - 20% discount
 
     var productName:String = "Modem Router"
-    var price:Double = 14500.50
+    var price:Double = 0.00
     var netPrice:Double = 0.00
     var discount:Double = 0.00
 
@@ -15,8 +15,8 @@ fun main(){
     productName = "Modem Router"
     price = 0.00
     discount = 0.00
+    netPrice = 0.00
 
-    // < > <= >= == !=
     println("Enter Product Name: ")
     productName = readln()
     println("Enter the Price: ")

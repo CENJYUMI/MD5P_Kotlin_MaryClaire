@@ -18,14 +18,6 @@ fun main(){
     var averageGrade:Double = 100.00
 
     //Input
-    studentName = ""
-    gradeInPhysics = 0.00
-    gradeInAlgebra = 0.00
-    gradeInProgramming = 0.00
-    grade = 0.00
-    status = ""
-    averageGrade = 100.00
-
     println("Enter Your Name: ")
     studentName = readln()
     println("Enter your grade in Physic: ")
@@ -35,30 +27,32 @@ fun main(){
     println("Enter your grade in Programming: ")
     gradeInProgramming = readln().toDouble()
 
+    //Process
     averageGrade = (gradeInPhysics + gradeInAlgebra + gradeInProgramming)/3
 
-    if(averageGrade <= 100) {
-        println("\n$studentName average grade is ${String.format("%,.2f", averageGrade)}")
+    //Output
+    if((averageGrade >= 95) && (averageGrade <= 100)) {
+        println("\n$studentName average grade is ${String.format("%.2f", averageGrade)}")
         println("President lister")
     }
-    else if(averageGrade <= 94) {
-        println("\n$studentName average grade is ${String.format("%,.2f", averageGrade)}")
+    else if((averageGrade >= 89) && (averageGrade <= 94)) {
+        println("\n$studentName average grade is ${String.format("%.2f", averageGrade)}")
         println("Dean lister")
     }
-    else if(averageGrade <= 88) {
-        println("\n$studentName average grade is ${String.format("%,.2f", averageGrade)}")
+    else if((averageGrade >= 83) && (averageGrade <= 88)){
+        println("\n$studentName average grade is ${String.format("%.2f", averageGrade)}")
         println("Average Student")
     }
-    else if(averageGrade <= 82) {
-        println("\n$studentName average grade is ${String.format("%,.2f", averageGrade)}")
+    else if((averageGrade >= 78) && (averageGrade <= 82)){
+        println("\n$studentName average grade is ${String.format("%.2f", averageGrade)}")
         println("Fair")
     }
     else if(averageGrade <= 77) {
-        println("\n$studentName average grade is ${String.format("%,.2f", averageGrade)}")
+        println("\n$studentName average grade is ${String.format("%.2f", averageGrade)}")
         println("Failure")
     }
-    else if(averageGrade >= 101) {
-        println("\n$studentName average grade is ${String.format("%,.2f", averageGrade)}")
+    else {
+        println("\n$studentName average grade is ${String.format("%.2f", averageGrade)}")
         println("Invalid Grade")
     }
 

@@ -18,24 +18,25 @@ fun main(){
     println("The Area Triangle is $computation1")
 
     //2. Assume a = 2 and b = 1
-    println("")
-
     //declare all variables
     var a:Int = 2
     var b:Int = 1
+    var c:Int = 0
 
     //input
-    println ("Enter the a")
+    println ("\nEnter the a")
     a = readln().toInt()
     println ("Enter the a")
     b = readln().toInt()
 
     //process
-    var computation2 = a*2 + 2*a*b - 4*(b+a)
-    var computation3 = computation2 / 2
+    var computation = a*2 + 2*a*b - 4*(b+a)
+    c = computation / 2
 
     //output
-    println("The c is $computation3")
+    println("The c is $c")
+
+    c = (a*2 + 2*a*b - 4*b+a)/2
 
 
 }
