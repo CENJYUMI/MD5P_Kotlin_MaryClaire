@@ -28,6 +28,7 @@ fun main(){
     var siblingAge:Int = 33
     var siblingCivilStat:String = "Married"
     var schoolOrCampany:String = "Quezon Memorial Center"
+
     //For Academic Progress Report
     var classAttendance:String = "Excellent"
     var classParticipation:String = "Above Average"

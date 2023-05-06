@@ -1,3 +1,5 @@
+package kotlinprogram
+
 fun main(){
     //declare all variables
     var number1:Int = 0

@@ -12,7 +12,4 @@ fun main(){
     z-=5
     println(z)
 
-
-
-
 }

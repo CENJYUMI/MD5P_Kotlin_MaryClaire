@@ -1,3 +1,5 @@
+package kotlinprogram
+
 fun main(){
     //when statement -> java, c, c# c++ -> switch statement
     //digits to words
@@ -21,7 +23,4 @@ fun main(){
             println("invalid number")
         }
     }
-
-
-
 }

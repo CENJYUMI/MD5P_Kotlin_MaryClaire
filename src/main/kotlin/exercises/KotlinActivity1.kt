@@ -1,8 +1,10 @@
 fun main(){
-
+    //Header
     var job:String = "Mobile Developer"
     var salary:Double = 40000.00
     var dateAvailable:String = "Full Time"
+
+    //Personal Information
     var lastName:String = "Capili"
     var firstName:String = "Mary Claire"
     var middleName:String = "Osongco"
@@ -17,12 +19,16 @@ fun main(){
     var usCitizen:String = "No"
     var convicted:String = "No"
     var preDrugTest:String = "Yes"
+
+    //Education
     var school:String = "Manuel S. Enverga University Foundation"
     var location:String = "Lucena City"
     var yearAttended:String = "Year 2005-2009"
     var degree:String = "Bachelor of Science"
     var major:String = "Hotel and Restaurant Management"
     var otherCerti:String = "N/A"
+
+    //Employment
     var lastJob:String = "Pizzeria Pokriva"
     var datesEmployed:String = "July 2019"
     var workPhone:Long = 987654321
@@ -36,12 +42,15 @@ fun main(){
     var supervisorsName:String = "Nives Morizin/Owner"
     var reasonForLeaving:String = "Due to Pandemic"
     var contactEmployer:String = "Yes"
+
+    //Reference
     var refName:String = "Mrs. Loida Batusin"
     var refTitle:String = "Logistics Supervisor"
     var companyName:String = "Quantum Global Food Concepts Inc."
     var refContact:Int = 427974402
     var nameOfApplicant:String = "Mary Claire O. Capili"
     var dateSigned:String = "April 12, 2023"
+
     println("")
     println("                               Application For Employment")
     println("")
