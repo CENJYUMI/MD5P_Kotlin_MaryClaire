@@ -1,3 +1,5 @@
+package kotlinprogram
+
 fun main(){
     var name:String = "John Weak"
     //displaying variable value using string interpolation
@@ -10,7 +12,4 @@ fun main(){
     println("His salary is $salary")
     println("His Skill Level is $skillLevel")
     println("He is currently active? $isActive")
-
-
-
 }
