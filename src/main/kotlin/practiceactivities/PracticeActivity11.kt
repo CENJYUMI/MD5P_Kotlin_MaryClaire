@@ -1,13 +1,16 @@
-import javax.swing.InputMap
+package practiceactivities
+//Create program PracticeActivity11.kt that will compute for the average of the student and
+//determine on three subjects and determine if falls under the following category:
+//Average Grade 	Grade Status
+//100 - 95 		President lister
+//94 - 89 		Dean lister
+//88 – 83 		Average Student
+//82 - 78 		Fair
+//lower than 78 		Failure
+//more than 100 	Invalid grade
+
 
 fun main(){
-    //Average Grade and Status
-    //100 - 95 = President lister
-    //94 - 89 = Dean lister
-    //88 - 83 = Average Student
-    //82 - 78 = Fair
-    //lower than 78 = Failure
-    //more than 100 = Invalid Grade
 
     var studentName:String = ""
     var gradeInPhysics:Double = 0.00

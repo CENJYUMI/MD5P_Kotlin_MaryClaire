@@ -1,3 +1,10 @@
+package practiceactivities
+//Convert the following Formula in Kotlin Code
+// Assume base = 10 and height = 2
+// Area triangle = base * height / 2
+//assume a = 2 and b = 1
+//c = a2 + 2ab - 4(b+a) / 2
+
 fun main(){
     //1. Assume base = 10 and height = 2
 

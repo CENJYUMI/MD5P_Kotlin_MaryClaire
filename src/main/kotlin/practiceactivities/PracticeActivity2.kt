@@ -1,3 +1,6 @@
+package practiceactivities
+//Write Kotlin program that computes the perimeter and area of a rectangle based on the input length and width
+// values of the user.
 fun main(){
     //declare all variables
     var length:Double = 12.5

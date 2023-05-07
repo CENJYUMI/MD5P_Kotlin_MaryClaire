@@ -1,3 +1,5 @@
+package exercises
+
 fun main(){
     //Student's Directory
     var studentIdNumber:Int = 366919

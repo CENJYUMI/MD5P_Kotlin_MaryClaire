@@ -1,3 +1,14 @@
+package practiceactivities
+//Create a program PracticeActivity12.kt that computes discount of passengers. Use the given table:
+//fareCode	Passenger 	Discount 	if traveling in Business class
+//
+//O	Ordinary	0%	additional 1000.0
+//S	Student	5%	additional 700.0
+//C	Senior Citizen	10%	additional 500.0
+//
+//
+//*If code is not within the selection make all output zero.Use when on your solution.
+
 fun main() {
 
     //variables
@@ -14,7 +25,6 @@ fun main() {
     var discount: Double = 0.00
     var newFare: Double = 0.00
 
-
     fare = 0.00
     newFare = 0.00
     busClass1 = 0.00
@@ -25,7 +35,7 @@ fun main() {
     println("Enter Passenger type [O,S,C]: ")
     passengerType = readln().first()
 
-    //Process
+    //Process and Output
     when (passengerType) {
         'O' -> {
             discount = fare * 0.00

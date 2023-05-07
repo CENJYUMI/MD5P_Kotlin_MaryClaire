@@ -1,6 +1,7 @@
+package practiceactivities
+//Design Kotlin program PracticeActivity4.kt that computes the age of a person depending on the current year and
+// birth year entered. Use Int as data type for all computation.
 fun main() {
-    //2 .
-
     //declare all variables
     var name: String = ""
     var currentYear: Int = 0

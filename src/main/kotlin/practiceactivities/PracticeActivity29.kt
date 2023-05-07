@@ -1,17 +1,20 @@
+package practiceactivities
+//Write a program that finds the maximum and minimum element in an array of integers.
+
 fun main() {
     val numbers = mutableListOf<Int>()
 
-    // get input from user
+    // Input
     repeat(5) {
         print("Enter number ${it + 1}: ")
         numbers.add(readln().toInt())
     }
 
-    // find max and min values
+    // Process
     val max = numbers.maxOrNull()
     val min = numbers.minOrNull()
 
-    // print results
+    // Output
     println("Max value is: $max")
     println("Min value is: $min")
 }

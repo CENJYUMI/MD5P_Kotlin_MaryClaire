@@ -1,6 +1,9 @@
-fun main() {
-    //3 .
+package practiceactivities
+//Create Kotlin program PracticeActivity5.kt that displays the amount he is going to pay if he avails different
+// payment mode. 10% discount is imposed if payment made in cash; 5% penalty for payment made in 2 installments;
+// 10% penalty for payment made in 3 installments.
 
+fun main() {
     //declare all variables
     var name: String = "Glenn Jacobs"
     var unitsEnrolled: Int = 18

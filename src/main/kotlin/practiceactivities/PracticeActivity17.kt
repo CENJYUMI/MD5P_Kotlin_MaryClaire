@@ -1,3 +1,6 @@
+package practiceactivities
+
+
 fun main(){
     var counter:Int = 0
     var counter1:Int = 0
