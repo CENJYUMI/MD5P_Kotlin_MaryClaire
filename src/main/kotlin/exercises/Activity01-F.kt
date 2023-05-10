@@ -1,8 +1,8 @@
 package exercises
-Identify 3 use cases that will efficiently use an Array, ArrayList, Set, Map.
-Show in code the examples you mentioned.
-
-
+//  Scope : String, Loops
+// Create an application that will accept 2 string inputs.
+// Your application will print all unique characters in both Strings.
+// Union of Unique characters in both Strings
 fun main() {
     // Prompt the user to enter two strings
     print("Enter string 1: ")
